@@ -1,0 +1,21 @@
+[tool.poetry]
+name = "todo-lists"
+version = "0.1.0"
+description = "This should be an API that receives peoples TODO lists and store them for the users, they should be able to retreive them from the database"
+authors = ["AutoGPT <info@agpt.co>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = ">=3.11,<4.0"
+pyjwt = "*"
+bcrypt = "*"
+fastapi = "*"
+passlib = "*"
+prisma = "*"
+pydantic = "*"
+uvicorn = "*"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
